@@ -100,13 +100,15 @@ hr {
   border-bottom: 1px solid var(--overlay-background-color);
 }
 
-code, pre, samp {
-  font-family: var(--fixed-font-family);
-  font-size: var(--body-font-size-s);
+code {
+  border: 1px solid #888;
+  background-color: #eee;
+  padding: 0 4px;
+  border-radius: 4px;
 }
 
-code, samp {
-  padding: .125em;
+pre code {
+  border: unset;
 }
 
 pre {
