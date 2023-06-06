@@ -8,6 +8,7 @@ import {
   decorateSections,
   decorateBlocks,
   decorateTemplateAndTheme,
+  decorateHeadings,
   waitForLCP,
   loadBlocks,
   loadCSS,
@@ -53,7 +54,8 @@ export function decorateMain(main) {
   decorateButtons(main);
   decorateIcons(main);
   buildAutoBlocks(main);
-  decorateSections(main);
+  decorateSections(main)
+  decorateHeadings(main);
   decorateBlocks(main);
 }
 
